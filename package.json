@@ -1,12 +1,4 @@
 {
-  "proxy":{
-    "/api":{
-      "target":"http://localhost:3000"
-    },
-    "/Test1123" : {
-      "target":"http://localhost:8080"
-    }
-  },
   "name": "test-json",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +6,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "http-proxy-middleware": "^2.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
