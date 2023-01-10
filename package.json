@@ -1,4 +1,12 @@
 {
+  "proxy":{
+    "/api":{
+      "target":"http://localhost:3000"
+    },
+    "/Test1123" : {
+      "target":"http://localhost:8080"
+    }
+  },
   "name": "test-json",
   "version": "0.1.0",
   "private": true,
